@@ -101,7 +101,7 @@ body {
 
 /*TITLE*/
 
-.container h2 {
+.p-title h2 {
     margin-bottom: 15px;
     text-align: center;
 }
@@ -256,3 +256,4 @@ body {
     margin-top: auto;
 
 }
+
