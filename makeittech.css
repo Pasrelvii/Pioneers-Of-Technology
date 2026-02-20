@@ -104,6 +104,7 @@ body {
 .p-title {
     margin-bottom: 15px;
     text-align: center;
+    align-self: center;
 }
 
 
@@ -256,6 +257,7 @@ body {
     margin-top: auto;
 
 }
+
 
 
 
