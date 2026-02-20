@@ -180,9 +180,25 @@
     <footer class="footer">
         <p><b>© 2026 MakeIt<span style="color: rgb(92, 155, 248);">Tech</span>.org  | Valerie Isabel . #31</b></p>
     </footer>
+
+    <!--Es un poquito de trampa el JS que voy a poner aqui pero profe es para q se vea bonito 😓-->
+    <script>
+const intro = document.querySelector('.intro');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            intro.classList.add('show');
+        }
+    });
+});
+
+observer.observe(intro);
+</script>
 </body>
 
 </html>
+
 
 
 
