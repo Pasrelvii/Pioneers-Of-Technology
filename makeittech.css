@@ -95,6 +95,19 @@ body {
     text-align: center;
 }
 
+/*Extra para el scroll-animation*/
+.intro {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.intro.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+ /*Fin de el scroll-animation!!*/
+
 .intro h2 {
     margin-bottom: 15px;
 }
@@ -257,6 +270,7 @@ body {
     margin-top: auto;
 
 }
+
 
 
 
