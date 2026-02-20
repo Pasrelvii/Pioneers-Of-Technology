@@ -99,6 +99,14 @@ body {
     margin-bottom: 15px;
 }
 
+/*TITLE*/
+
+.container h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
 /* CARDS */
 .container {
     position: relative;
@@ -246,4 +254,5 @@ body {
     color: white;
     position: static;
     margin-top: auto;
+
 }
